@@ -20,12 +20,21 @@ namespace WpfApplication1
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             lbl1.Content = "ASDASDASD";
- //           this.chkbox1.SetValue(0, 1);
+            btn1.Content = "MyButtom3";
+            //           this.chkbox1.SetValue(0, 1);
         }
 
         private void CheckBox_Checked(object sender, RoutedEventArgs e)
         {
             lbl1.Content = "";
         }
+
+        private void CheckBox_UnChecked(object sender, RoutedEventArgs e)
+        {
+            btn1.Content = "MyButtom";
+            lbl1.Content = "AAAAA";
+        }
+
+
     }
 }
